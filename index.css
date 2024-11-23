@@ -21,6 +21,17 @@ html,
 body {
   width: 100%;
 }
+.loader {
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  position: absolute;
+  background: var(--very-dark-blue);
+  z-index: 99999;
+  transition: 1s ease-in-out;
+}
+
 main {
   width: 100vw;
   height: 100vh;

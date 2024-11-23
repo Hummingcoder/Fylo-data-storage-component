@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <img class="bg-img" src="images/bg-desktop.png" alt="" />
+      <article>
+        <section class="left">
+          <div>
+            <img src="images/logo.svg" alt="logo" class="logo" />
+          </div>
+          <div class="btns">
+            <div class="btn">
+              <button>
+                <img src="images/icon-document.svg" alt="icon-document" />
+              </button>
+              <div class="sp"></div>
+            </div>
+            <div class="btn">
+              <button>
+                <img src="images/icon-folder.svg" alt="icon-folder" />
+              </button>
+              <div class="sp"></div>
+            </div>
+            <div class="btn">
+              <button>
+                <img src="images/icon-upload.svg" alt="icon-upload" />
+              </button>
+              <div class="sp"></div>
+            </div>
+          </div>
+        </section>
+        <section class="right">
+          <div class="remaining-gb">
+            <p class="n">185</p>
+            <p class="t">GB LEFT</p>
+          </div>
+          <p class="txt">You’ve used <b>815 GB</b> of your storage</p>
+          <div class="slide-p">
+            <div class="slide-c"></div>
+          </div>
+          <div class="gbs">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--gsap -------- -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"
+      integrity="sha512-xAxjKW1J/R4TFytv43xvQ7jFTrJlBzsDOH/Aw0fFc2nvarQkE3d08lTicjzUsZJYDoHYDCpwsUUqOJXh34A1sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- js--------- -->
+    <script src="index.js"></script>
+  </body>
+</html>

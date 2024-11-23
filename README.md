@@ -10,8 +10,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmento.....](https://www.frontendmentor.io/solutions/fylo-data-storage-component-solution-R_3vWDFfeC)
+- Live Site URL: [https://hummingcoder.git.....](https://hummingcoder.github.io/Fylo-data-storage-component/)
 
 ### Screenshot
 
